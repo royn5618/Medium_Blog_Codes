@@ -14,7 +14,10 @@ Summary: An nltk implementation of basic text cleaning and normalization techniq
 ### 2.  Blogs on Covid-19 News Articles
 [[Blog Link](https://towardsdatascience.com/exploring-news-about-covid-19-in-indian-media-nlp-wordcloud-covid-19-article-1-2bcbb127dfb3)] Exploring News about Covid-19 in Indian Media | NLP| Wordcloud | Covid-19 Article 1 
 
+[[Blog Link](https://towardsdatascience.com/extracting-features-from-covids-news-a-simple-bag-of-words-approach-for-time-series-text-data-bffe59de76a1)] Extracting Features From Covid’s News: A Simple Bag-of-Words Approach for Time-Series Text Data Modelling | Covid-19 Article 2
+
 Code for Scraping - [Git Repository NLP_using_News_API](https://github.com/royn5618/NLP_using_News_API)
+
 Jupyter Notebooks: https://github.com/royn5618/Medium_Blog_Codes/tree/master/Covid-Blog-Codes
 
 Summary: COVID-19 has turned the world upside-down. The global buzzwords are now coronavirus, death, quarantine and lockdown. So, in this blog, I attempted to dig into the news articles from Indian media and visualize which words appeared the most using a wordcloud. I also explored further into the texts and try to establish significant correlations between features extracted from the texts using Bag-of-Words (BoW) approach. ** Work in progress **
