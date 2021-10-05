@@ -1,4 +1,4 @@
-def assess_categories(X):
+def cardinality_assessment(X):
   for col in df.columns:
     print("-----------------------------")
     print("{} : {} unique values".format(col, len(df[col].unique()))
