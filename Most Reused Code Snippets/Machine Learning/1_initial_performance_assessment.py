@@ -9,17 +9,18 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier
 
 
-# initialize a dataframe to store model performance
-df_performance_metrics = pd.DataFrame(columns=[
-    'Model', 'Accuracy_Training_Set', 'Accuracy_Test_Set', 'Precision',
-    'Recall', 'f1_score', 'Training Time (secs)'
-])
-
-# initialize a list to store the models
-list_models_trained = []
-
 # create a function that takes in the model and index of the model in the list list_init_models
 def get_initial_performance_metrics(model, i):
+    """
+    Train and assess performance of models using default configs
+    
+    Attributes
+    ----------
+    model : sklearn model
+        model object
+    i : int
+        model index
+    """
     # model name
     model_name = type(model).__name__
     # time keeping
@@ -46,7 +47,17 @@ def get_initial_performance_metrics(model, i):
     # keep a track of trained models
     list_models_trained.append(model)
     print("Completed {} model's performance assessment.".format(model_name))
+
+# initialize a dataframe to store model performance
+df_performance_metrics = pd.DataFrame(columns=[
+    'Model', 'Accuracy_Training_Set', 'Accuracy_Test_Set', 'Precision',
+    'Recall', 'f1_score', 'Training Time (secs)'
+])
     
+# initialize a list to store the models.
+# declared out of function to keep on saving models in this list
+list_models_trained = []
+
 # initialize a list of models of interest   
 list_init_models = [LogisticRegression(),
                     MultinomialNB(),
