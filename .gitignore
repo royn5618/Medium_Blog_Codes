@@ -1,5 +1,6 @@
 # File Type
 *.pkl
+*.hdf5
 
 Data/
 
