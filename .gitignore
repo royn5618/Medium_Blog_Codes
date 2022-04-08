@@ -3,6 +3,7 @@
 *.hdf5
 
 Data/
+config.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
