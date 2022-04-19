@@ -1,9 +1,8 @@
 # Medium_Blog_Codes
 
-This is a dedicated repository containing jupyter notebooks for my technical blogs posts on [Medium](http://medium.com/).    
-Profile Link - https://medium.com/@nroy0110
-Towards Data Science Profile - [https://towardsdatascience.com/@nroy0110]
-Women in AI Profile - 
+This is a dedicated repository containing jupyter notebooks for my technical blogs posts on [Medium](http://medium.com/). 
+
+My Medium Profile Link - https://medium.com/@nroy0110
 
 ### 1.  [[Blog Link](https://towardsdatascience.com/building-a-text-normalizer-using-nltk-ft-pos-tagger-e713e611db8)]Building a Text Normalizer using NLTK ft. POS tagger  
 
